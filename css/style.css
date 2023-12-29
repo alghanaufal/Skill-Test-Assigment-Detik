@@ -65,3 +65,14 @@ header {
   order: -1; /* Membalik urutan gambar agar berada di sebelah kanan */
   width: 840px;
 }
+
+.row{
+  margin-right: 0px;
+}
+.btn{
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.input-group{
+  margin-top: 0px;
+}
