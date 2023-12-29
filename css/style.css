@@ -1,0 +1,67 @@
+body {
+  font-family: 'Lexend Deca', sans-serif;
+    background-color: #f8f9fa;
+}
+header {
+  background: url('../asset/banner.png') center/cover;
+  color: #fff;
+  padding: 15px 0;
+  height: 800px;
+  background-position: right;
+}
+.navbar-brand img {
+  max-height: 40px;
+}
+.navbar-nav.ml-auto .nav-item {
+  margin-right: 15px;
+}
+.navbar-nav .nav-item {
+  margin: 0 33px 0 33px;
+}
+.get-access-btn {
+  background-color: rgba(84,104,231, 0.5); 
+  color: #fff;
+  padding: 10px 44px 10px 44px;
+}
+.position-absolute-bottom {
+  position: absolute;
+  bottom: 0;
+  padding: 5rem;
+  margin-bottom: 350px; 
+}
+.container-start{
+  margin: 12% 0 0 5%;
+}
+.content-container {
+  max-width: 563px;
+  max-height: 301px;
+}
+.email-input {
+  width: 290px;
+  height: 47px;
+  margin-top: 20%;
+}
+.send-email-button {
+  width: 222px;
+  height: 47px;
+  margin-top: 20%;
+  margin-left: 5%;
+  background-color: #5468E7;
+}
+.mockup-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 140px; /* Tambahkan margin-left sesuai kebutuhan */
+}
+.mockup-text {
+  flex: 1;
+  margin-left: 5%;
+}
+.mockup-image {
+  overflow: hidden; /* Memastikan bagian yang tidak muat dipotong */
+}
+.mockup-image img {
+  order: -1; /* Membalik urutan gambar agar berada di sebelah kanan */
+  width: 840px;
+}

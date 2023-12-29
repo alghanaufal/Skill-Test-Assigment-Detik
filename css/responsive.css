@@ -1,0 +1,27 @@
+/* Media query untuk lebar layar 568px */
+@media (max-width: 568px) {
+    .container-start {
+        margin: 35% 0 0 3%;
+    }
+    .position-absolute-bottom {
+        padding: 3rem;
+        margin-bottom: 250px;
+    }
+    .email-input {
+        margin-top: 10%;
+    }
+    .content-container {
+        max-width: 100%;
+    }
+    .send-email-button {
+        margin-top: 10%;
+    }
+}
+
+
+/* Media query untuk lebar layar 320px */
+@media (max-width: 320px) {
+    .container-start {
+        margin: 50% 0 0 4%;
+    }
+}
