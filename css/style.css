@@ -58,6 +58,9 @@ header {
   flex: 1;
   margin-left: 5%;
 }
+.mockup-text p{
+  margin-top: 5%;
+}
 .mockup-image {
   overflow: hidden; /* Memastikan bagian yang tidak muat dipotong */
 }
@@ -75,4 +78,8 @@ header {
 }
 .input-group{
   margin-top: 0px;
+}
+
+.input-group-text{
+  margin-right: 10%;
 }
