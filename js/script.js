@@ -1,30 +1,27 @@
 var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 1,
-  spaceBetween: 10,
+  slidesPerView: 4,
+  centeredSlides: true,
+  spaceBetween: 30,
   pagination: {
     el: ".swiper-pagination",
-    clickable: true,
+    type: "fraction",
+  },
+  navigation: {
+    nextEl: ".swiper-button-right",
+    prevEl: ".swiper-button-left",
   },
   breakpoints: {
-    "@0.00": {
-      slidesPerView: 1,
-      spaceBetween: 10,
-    },
-    "@0.75": {
+    320: {
       slidesPerView: 2,
       spaceBetween: 20,
     },
-    "@1.00": {
+    586: {
       slidesPerView: 3,
       spaceBetween: 40,
     },
-    "@1.50": {
+    1440: {
       slidesPerView: 4,
       spaceBetween: 50,
     },
-  },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
   },
 });

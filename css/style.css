@@ -101,3 +101,42 @@ header {
   height: 100%;
   object-fit: cover;
 }
+
+.swiper-buttons-container {
+  display: flex;
+  justify-content: end;
+  margin-top: 10px; /* Adjust the margin as needed */
+}
+.rating-container {
+  direction: rtl;
+  text-align: left; /* To ensure that the text inside the container aligns to the left */
+}
+.rating {
+  font-size: 24px; /* Adjust the font size as needed */
+  color: #ffc107; /* Set the star color */
+  margin-bottom: 10px; /* Add spacing between rating and text */
+}
+.star {
+  display: inline-block;
+}
+.card {
+  display: flex;
+}
+.card-img-top {
+  width: 30%; /* Adjust the width of the image column */
+  object-fit: cover; /* Maintain aspect ratio for the image */
+}
+.card-body {
+  width: 70%; /* Adjust the width of the content column */
+  padding: 1rem; /* Add padding as needed */
+}
+.swiper-button-right,
+.swiper-button-left {
+  padding: 10px; /* Set padding as needed */
+  cursor: pointer;
+  color: #5468e7; /* Set the arrow color */
+}
+footer{
+  color: #5468e7;
+  background-color: #232340;
+}
