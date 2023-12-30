@@ -61,9 +61,6 @@ header {
 .mockup-text p{
   margin-top: 5%;
 }
-.mockup-image {
-  overflow: hidden; /* Memastikan bagian yang tidak muat dipotong */
-}
 .mockup-image img {
   order: -1; /* Membalik urutan gambar agar berada di sebelah kanan */
   width: 840px;
