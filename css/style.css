@@ -52,7 +52,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 140px; /* Tambahkan margin-left sesuai kebutuhan */
+  margin-left: 140px; 
 }
 .mockup-text {
   flex: 1;
@@ -62,10 +62,9 @@ header {
   margin-top: 5%;
 }
 .mockup-image img {
-  order: -1; /* Membalik urutan gambar agar berada di sebelah kanan */
+  order: -1; 
   width: 840px;
 }
-
 .row{
   margin-right: 0px;
 }
@@ -76,16 +75,13 @@ header {
 .input-group{
   margin-top: 0px;
 }
-
 .input-group-text{
   margin-right: 10%;
 }
-
 .swiper {
   width: 100%;
   height: 100%;
 }
-
 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -94,27 +90,25 @@ header {
   justify-content: center;
   align-items: center;
 }
-
 .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
 .swiper-buttons-container {
   display: flex;
   justify-content: end;
-  margin-top: 10px; /* Adjust the margin as needed */
+  margin-top: 10px; 
 }
 .rating-container {
   direction: rtl;
-  text-align: left; /* To ensure that the text inside the container aligns to the left */
+  text-align: left; 
 }
 .rating {
-  font-size: 24px; /* Adjust the font size as needed */
-  color: #ffc107; /* Set the star color */
-  margin-bottom: 10px; /* Add spacing between rating and text */
+  font-size: 24px; 
+  color: #ffc107; 
+  margin-bottom: 10px; 
 }
 .star {
   display: inline-block;
@@ -123,20 +117,34 @@ header {
   display: flex;
 }
 .card-img-top {
-  width: 30%; /* Adjust the width of the image column */
-  object-fit: cover; /* Maintain aspect ratio for the image */
+  width: 30%; 
+  object-fit: cover; 
 }
 .card-body {
-  width: 70%; /* Adjust the width of the content column */
-  padding: 1rem; /* Add padding as needed */
+  width: 70%; 
+  padding: 1rem; 
 }
 .swiper-button-right,
 .swiper-button-left {
-  padding: 10px; /* Set padding as needed */
+  padding: 10px; 
   cursor: pointer;
-  color: #5468e7; /* Set the arrow color */
+  color: #5468e7; 
 }
 .footer{
   color: #5468e7;
   background-color: #232340;
+}
+.footer .input-group.mb-3 {
+  border: none; 
+}
+.footer .form-control {
+  border: none !important; 
+  background-color: #F5F5F53D; 
+  opacity: 0.75;
+  border-radius: 50; 
+}
+.footer .input-group-text {
+  border: none !important; 
+  background-color: #F5F5F53D; 
+  opacity: 0.75;
 }
