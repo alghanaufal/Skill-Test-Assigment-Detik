@@ -136,7 +136,7 @@ header {
   cursor: pointer;
   color: #5468e7; /* Set the arrow color */
 }
-footer{
+.footer{
   color: #5468e7;
   background-color: #232340;
 }
